@@ -1,0 +1,4 @@
+{
+  "name": "ModuleFactory.Audio.Sample",
+  "references": ["ModuleFactory.Audio"]
+}

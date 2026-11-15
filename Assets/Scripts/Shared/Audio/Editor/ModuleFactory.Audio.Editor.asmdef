@@ -1,0 +1,6 @@
+{
+  "name": "ModuleFactory.Audio.Editor",
+  "rootNamespace": "ModuleFactory.Audio.Editor",
+  "references": ["ModuleFactory.Audio"],
+  "includePlatforms": ["Editor"]
+}

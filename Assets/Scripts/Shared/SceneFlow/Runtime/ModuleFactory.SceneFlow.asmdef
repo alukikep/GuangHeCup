@@ -1,0 +1,5 @@
+{
+  "name": "ModuleFactory.SceneFlow",
+  "rootNamespace": "ModuleFactory.SceneFlow",
+  "references": ["ModuleFactory.SimpleUI"]
+}

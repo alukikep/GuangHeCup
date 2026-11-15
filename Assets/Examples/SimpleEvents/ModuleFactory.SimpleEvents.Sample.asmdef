@@ -1,0 +1,4 @@
+{
+  "name": "ModuleFactory.SimpleEvents.Sample",
+  "references": ["ModuleFactory.SimpleEvents", "Unity.ugui"]
+}

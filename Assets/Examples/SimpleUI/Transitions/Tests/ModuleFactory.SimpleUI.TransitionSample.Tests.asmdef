@@ -1,0 +1,1 @@
+{"name": "ModuleFactory.SimpleUI.TransitionSample.Tests", "references": ["ModuleFactory.SceneFlow", "ModuleFactory.SimpleUI.Transitions", "ModuleFactory.SimpleUI", "Unity.ugui"], "optionalUnityReferences": ["TestAssemblies"]}

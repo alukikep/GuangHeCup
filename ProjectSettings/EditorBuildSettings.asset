@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Examples/JamStarter/JamStarter.unity
+    guid: 5ce52004e35eff54c8639f9d2403776e
+  - enabled: 1
+    path: Assets/Examples/SimpleUI/Transitions/FadeDemoA.unity
+    guid: e467a9adad72f434e82791a0be5572da
+  - enabled: 1
+    path: Assets/Examples/SimpleUI/Transitions/FadeDemoB.unity
+    guid: a6671eebffd5ba14b9abf29e0a6bb3fa
   m_configObjects: {}

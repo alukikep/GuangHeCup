@@ -1,0 +1,6 @@
+{
+  "name": "ModuleFactory.Audio.Editor.Tests",
+  "references": ["ModuleFactory.Audio", "ModuleFactory.Audio.Editor"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

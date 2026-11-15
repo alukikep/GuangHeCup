@@ -1,0 +1,5 @@
+{
+  "name": "ModuleFactory.Audio.Tests",
+  "references": ["ModuleFactory.Audio"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

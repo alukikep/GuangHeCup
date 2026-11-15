@@ -1,0 +1,5 @@
+{
+  "name": "ModuleFactory.KeyboardInput.Sample.Tests",
+  "references": ["Unity.InputSystem", "Unity.InputSystem.TestFramework", "Unity.ugui"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

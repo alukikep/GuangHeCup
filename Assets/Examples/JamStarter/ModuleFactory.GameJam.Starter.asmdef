@@ -1,0 +1,4 @@
+{
+  "name": "ModuleFactory.GameJam.Starter",
+  "references": ["ModuleFactory.Audio", "ModuleFactory.SimplePool", "ModuleFactory.SimpleUI", "Unity.ugui"]
+}

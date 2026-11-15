@@ -1,0 +1,5 @@
+{
+  "name": "ModuleFactory.GameJam.Starter.Tests",
+  "references": ["ModuleFactory.Audio", "ModuleFactory.SimpleUI", "Unity.ugui"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

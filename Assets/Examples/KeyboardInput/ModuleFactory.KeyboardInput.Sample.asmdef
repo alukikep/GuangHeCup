@@ -1,0 +1,4 @@
+{
+  "name": "ModuleFactory.KeyboardInput.Sample",
+  "references": ["ModuleFactory.KeyboardInput", "Unity.InputSystem", "Unity.ugui"]
+}

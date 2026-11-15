@@ -1,0 +1,196 @@
+{
+  "name": "KeyboardActions",
+  "maps": [
+    {
+      "name": "Gameplay",
+      "id": "6f4433cc-7d35-4a14-a60d-000000000001",
+      "actions": [
+        {
+          "name": "Move",
+          "type": "Value",
+          "id": "6f4433cc-7d35-4a14-a60d-000000000002",
+          "expectedControlType": "Vector2"
+        },
+        {
+          "name": "Interact",
+          "type": "Button",
+          "id": "6f4433cc-7d35-4a14-a60d-000000000003",
+          "expectedControlType": "Button"
+        },
+        {
+          "name": "Pause",
+          "type": "Button",
+          "id": "6f4433cc-7d35-4a14-a60d-000000000004",
+          "expectedControlType": "Button"
+        }
+      ],
+      "bindings": [
+        {
+          "name": "",
+          "id": "6f4433cc-7d35-4a14-a60d-000000000005",
+          "path": "2DVector",
+          "groups": "",
+          "action": "Move",
+          "isComposite": true,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "up",
+          "id": "6f4433cc-7d35-4a14-a60d-000000000006",
+          "path": "<Keyboard>/w",
+          "groups": "Keyboard",
+          "action": "Move",
+          "isComposite": false,
+          "isPartOfComposite": true
+        },
+        {
+          "name": "down",
+          "id": "6f4433cc-7d35-4a14-a60d-000000000007",
+          "path": "<Keyboard>/s",
+          "groups": "Keyboard",
+          "action": "Move",
+          "isComposite": false,
+          "isPartOfComposite": true
+        },
+        {
+          "name": "left",
+          "id": "6f4433cc-7d35-4a14-a60d-000000000008",
+          "path": "<Keyboard>/a",
+          "groups": "Keyboard",
+          "action": "Move",
+          "isComposite": false,
+          "isPartOfComposite": true
+        },
+        {
+          "name": "right",
+          "id": "6f4433cc-7d35-4a14-a60d-000000000009",
+          "path": "<Keyboard>/d",
+          "groups": "Keyboard",
+          "action": "Move",
+          "isComposite": false,
+          "isPartOfComposite": true
+        },
+        {
+          "name": "",
+          "id": "6f4433cc-7d35-4a14-a60d-00000000000a",
+          "path": "<Keyboard>/e",
+          "groups": "Keyboard",
+          "action": "Interact",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "6f4433cc-7d35-4a14-a60d-00000000000b",
+          "path": "<Keyboard>/escape",
+          "groups": "Keyboard",
+          "action": "Pause",
+          "isComposite": false,
+          "isPartOfComposite": false
+        }
+      ]
+    },
+    {
+      "name": "UI",
+      "id": "b62a6048-9e3b-4376-aa79-00000000000c",
+      "actions": [
+        {
+          "name": "Navigate",
+          "type": "Value",
+          "id": "b62a6048-9e3b-4376-aa79-00000000000d",
+          "expectedControlType": "Vector2"
+        },
+        {
+          "name": "Submit",
+          "type": "Button",
+          "id": "b62a6048-9e3b-4376-aa79-00000000000e",
+          "expectedControlType": "Button"
+        },
+        {
+          "name": "Cancel",
+          "type": "Button",
+          "id": "b62a6048-9e3b-4376-aa79-00000000000f",
+          "expectedControlType": "Button"
+        }
+      ],
+      "bindings": [
+        {
+          "name": "",
+          "id": "b62a6048-9e3b-4376-aa79-000000000010",
+          "path": "2DVector",
+          "groups": "",
+          "action": "Navigate",
+          "isComposite": true,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "up",
+          "id": "b62a6048-9e3b-4376-aa79-000000000011",
+          "path": "<Keyboard>/upArrow",
+          "groups": "Keyboard",
+          "action": "Navigate",
+          "isComposite": false,
+          "isPartOfComposite": true
+        },
+        {
+          "name": "down",
+          "id": "b62a6048-9e3b-4376-aa79-000000000012",
+          "path": "<Keyboard>/downArrow",
+          "groups": "Keyboard",
+          "action": "Navigate",
+          "isComposite": false,
+          "isPartOfComposite": true
+        },
+        {
+          "name": "left",
+          "id": "b62a6048-9e3b-4376-aa79-000000000013",
+          "path": "<Keyboard>/leftArrow",
+          "groups": "Keyboard",
+          "action": "Navigate",
+          "isComposite": false,
+          "isPartOfComposite": true
+        },
+        {
+          "name": "right",
+          "id": "b62a6048-9e3b-4376-aa79-000000000014",
+          "path": "<Keyboard>/rightArrow",
+          "groups": "Keyboard",
+          "action": "Navigate",
+          "isComposite": false,
+          "isPartOfComposite": true
+        },
+        {
+          "name": "",
+          "id": "b62a6048-9e3b-4376-aa79-000000000015",
+          "path": "<Keyboard>/enter",
+          "groups": "Keyboard",
+          "action": "Submit",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "b62a6048-9e3b-4376-aa79-000000000016",
+          "path": "<Keyboard>/escape",
+          "groups": "Keyboard",
+          "action": "Cancel",
+          "isComposite": false,
+          "isPartOfComposite": false
+        }
+      ]
+    }
+  ],
+  "controlSchemes": [
+    {
+      "name": "Keyboard",
+      "bindingGroup": "Keyboard",
+      "devices": [
+        {
+          "devicePath": "<Keyboard>",
+          "isOptional": false,
+          "isOR": false
+        }
+      ]
+    }
+  ]
+}

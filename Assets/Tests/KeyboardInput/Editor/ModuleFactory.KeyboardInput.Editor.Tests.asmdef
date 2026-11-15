@@ -1,0 +1,6 @@
+{
+  "name": "ModuleFactory.KeyboardInput.Editor.Tests",
+  "references": ["ModuleFactory.KeyboardInput", "Unity.InputSystem", "Unity.InputSystem.TestFramework"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

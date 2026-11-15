@@ -1,0 +1,5 @@
+{
+  "name": "ModuleFactory.SimplePool.Tests",
+  "references": ["ModuleFactory.SimplePool"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

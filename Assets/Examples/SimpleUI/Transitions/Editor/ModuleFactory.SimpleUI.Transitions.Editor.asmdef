@@ -1,0 +1,1 @@
+{"name":"ModuleFactory.SimpleUI.Transitions.Editor","references":["ModuleFactory.SceneFlow","ModuleFactory.SimpleUI.Transitions","ModuleFactory.SimpleUI","Unity.ugui"],"includePlatforms":["Editor"]}

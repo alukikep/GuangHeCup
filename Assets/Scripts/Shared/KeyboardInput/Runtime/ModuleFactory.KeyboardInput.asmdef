@@ -1,0 +1,5 @@
+{
+  "name": "ModuleFactory.KeyboardInput",
+  "rootNamespace": "ModuleFactory.KeyboardInput",
+  "references": ["Unity.InputSystem"]
+}

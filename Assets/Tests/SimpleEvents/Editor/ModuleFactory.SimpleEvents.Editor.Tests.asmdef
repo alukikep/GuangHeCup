@@ -1,0 +1,6 @@
+{
+  "name": "ModuleFactory.SimpleEvents.Editor.Tests",
+  "references": ["ModuleFactory.SimpleEvents"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}
