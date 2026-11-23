@@ -1,0 +1,1 @@
+{"name":"Game.Combat.Editor","rootNamespace":"Game.Combat.Editor","references":["Game.Combat","Game.Core"],"includePlatforms":["Editor"]}

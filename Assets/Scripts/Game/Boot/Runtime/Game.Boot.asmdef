@@ -1,0 +1,1 @@
+{"name":"Game.Boot","rootNamespace":"Game.Boot","references":["Game.Core","Game.Combat","Game.Data","Game.Player","Game.Enemy","Game.Battle","Game.UI","Game.Level","Game.Tutorial","ModuleFactory.SceneFlow","ModuleFactory.SimpleUI"]}

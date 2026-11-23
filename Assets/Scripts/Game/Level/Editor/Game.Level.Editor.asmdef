@@ -1,0 +1,1 @@
+{"name":"Game.Level.Editor","rootNamespace":"Game.Level.Editor","references":["Game.Level","Game.Core"],"includePlatforms":["Editor"]}

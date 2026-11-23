@@ -1,0 +1,1 @@
+{"name":"Game.UI","rootNamespace":"Game.UI","references":["Game.Core","Game.Combat","ModuleFactory.SimpleUI","Unity.ugui"]}
