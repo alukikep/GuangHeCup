@@ -12,3 +12,9 @@
 *.sln
 *.slnx
 *.user
+
+# macOS
+.DS_Store
+
+# Unity / Mono 崩溃转储
+mono_crash.*.json

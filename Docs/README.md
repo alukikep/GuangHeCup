@@ -2,6 +2,7 @@
 
 | 文档 | 内容 |
 |---|---|
+| [PROGRESS.md](PROGRESS.md) | 当前实现状态、验证记录与后续交接 |
 | [ARCHITECTURE.md](ARCHITECTURE.md) | 模块划分、程序集依赖、Combat API、时序图、状态机、里程碑 |
 | [BALANCE.md](BALANCE.md) | 战斗数值初稿（帧数口径）、TTK 推导、怒气节奏、调参敏感度 |
 | [ART_SPEC.md](ART_SPEC.md) | 像素规格：PPU/分辨率、角色尺寸、动画帧率、图集、导入设置 |
