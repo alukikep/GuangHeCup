@@ -60,7 +60,7 @@ namespace Game.Level.Editor
                 var grid = Undo.AddComponent<Grid>(root);
                 Undo.RecordObject(grid, "设置网格");
                 grid.cellSize = new Vector3(MapRoom.CellSize, MapRoom.CellSize, 0);
-                for (int i = 0; i < Layers.Length; i++)
+                for (int i = 1; i < Layers.Length; i++)
                 {
                     var layer = new GameObject(Layers[i]);
                     layer.transform.SetParent(root.transform, false);
