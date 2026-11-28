@@ -11,6 +11,13 @@
 
 ## 实现记录
 
+### 2026-11-28 · 修复合并后的战斗契约重名
+
+- 删除重复的 `Assets/Scripts/Game/Combat/Runtime/Contracts/IDamageable.cs`，其 `DamageInfo` / `IDamageable` 与合并分支的 [CombatBasics.cs](../Assets/Scripts/Game/Combat/Runtime/Contracts/CombatBasics.cs) 重名。
+- [EnemyBrain.cs](../Assets/Scripts/Game/Enemy/Runtime/EnemyBrain.cs) 改为实现合并分支的 `IDamageable` / `IHealth`；命中改用新的 `DamageInfo` 字段，近战与投射物分别传 `DamageType.Melee` / `DamageType.Projectile`。
+- **验证**用 Unity 生成的 `Game.Enemy.rsp` 外部 Roslyn 编译，exit 0。编辑器日志中的 CS0535 来自修改前的缓存构建，需在 Unity 刷新后复验。
+- **待办**在 Unity 中确认脚本重编译无报错；敌人 prefab 与灰盒行为仍未验证。
+
 ### 2026-11-27 · 建立进度交接入口
 
 - 新建根目录 [AGENTS.md](../AGENTS.md) 和本文件，约定接手先读进度，完成实现后记录变更、验证与待办。将本文件加入设计文档索引。
